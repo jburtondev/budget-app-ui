@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # BudgetApp
 
 A budgeting application.
