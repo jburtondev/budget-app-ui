@@ -1,6 +1,4 @@
 <div class="item">
-    <input class="item__input" type="text" placeholder="Name">
-    <input class="item__input" type="text" placeholder="Date">
-    <input class="item__input" type="number" placeholder="Price">
+    <input *ngIf="itemType === 'default'" [ngClass]="['item', itemType]" type="text" placeholder="{{content}}">
 </div>
 
